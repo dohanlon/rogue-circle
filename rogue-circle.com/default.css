@@ -1,0 +1,307 @@
+
+.clear {
+	clear: both;
+	}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+
+	background: #ffffff url(images/body_back.png);
+	background-repeat: repeat-x;
+	font: normal small "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #666666;
+	margin: 0 auto;
+}
+
+h1, h2, h3 {
+	color: #333333;
+}
+
+h1 {
+	left: 50px;
+}
+
+h2 {
+}
+
+h3 {
+	font-size: 1em;
+}
+
+p, blockquote, ul, ol {
+	margin-bottom: 1.5em;
+	line-height: 1.65em;
+	text-align: justify;
+}
+
+p {
+}
+
+blockquote {
+	margin-left: 2em;
+	margin-right: 2em;
+	font-style: italic;
+}
+
+ul {
+	margin-left: 3em;
+}
+
+ul li {
+}
+
+ol {
+	margin-left: 3em;
+}
+
+ol li {
+}
+
+a {
+	text-decoration: underline;
+	color: #3E9722;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #E58C24;
+}
+
+img {
+	border: none;
+}
+
+
+
+
+.content {
+	width: 800px;
+	margin: 0 auto;
+	padding-top: 50px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	
+}
+	
+.content q {
+
+font-size: 16px;
+
+}
+
+.content #main {
+
+width: 600px;
+float: left;
+margin-right: 20px;
+
+}
+
+
+
+.content #sub  {
+
+width:180px;
+margin: 0 auto;
+float: right;
+padding-top: 10px;
+
+}
+
+.content p {
+
+line-height: 2.2em;
+
+}
+
+.article {
+
+padding-bottom: 30px;
+width: 100%;
+
+
+}
+
+.article strong {
+
+font-size: 18px;
+letter-spacing: .1em;
+
+}
+
+.article li {
+
+line-height: 1.7em;
+font-variant: small-caps;
+
+}
+
+.article #box {
+
+border: 1px solid black;
+border-right: none;
+border-left: none;
+color: #000000;
+width: 100%;
+line-height: 1.2em;
+overflow: visible
+}
+
+#main #title {
+
+font-size:22px;
+font-weight: bold;
+letter-spacing: .7em;
+font-family: "Courier New", Courier, monospace;
+text-align: center;
+text-transform: uppercase;
+padding-bottom: 20px;
+line-height: 1.6em;
+
+}
+
+#sub #title {
+
+padding-top: 9px;
+border-bottom: 5px #000000;
+font-weight: bold;
+text-align: right;
+text-transform: uppercase;
+
+}
+
+#header {
+/*	display: none;*/
+	width: 800px;
+	height: 400px;
+	margin: 0 auto;
+	background-image: url(images/header_background.png);
+	}
+
+/* Header > Logo */
+
+#logo {
+	float: left;
+	width: 400px;
+	height: 115px;
+	margin-top: 100px;
+	margin-left: 50px;
+	padding-bottom: 80px;
+}
+
+#menu {
+	float: right;
+	margin: 65px 0 0 auto;
+}
+
+#menu ul {
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	width: 120px;
+	height: 30px;
+	margin-left: 2px;
+	padding-top: 10px;
+	background: url(images/) no-repeat;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	color: #000000;
+}
+
+#menu a:hover {
+	color: white;
+	background: url(images/menu_hover_reflection.png) no-repeat;
+}
+
+#menu .active a {
+	color: white;
+	background-color: black;
+}
+
+#bios {
+	width: 500px;
+	margin: 20px auto;
+	}		
+
+.bio_name {
+	float: left;
+	margin-left: 10px;
+	font-weight: bold;
+	}
+
+
+
+#stef_bio {
+	width: 490px;
+	height: 220px;
+	float: left;
+	text-align: justify;
+	}
+
+#stef_bio_text {
+	width: 300px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+	}	
+
+#stef_bio img {
+	float: left;
+}
+
+#damon_bio {
+	width: 490px;
+	height: 220px;
+	margin-top: 25px;
+	text-align: justify;
+	}
+
+#damon_bio_text {
+	width: 300px;
+	float: right;
+	margin-top: 25px;
+	margin-right: 20px;
+	}
+	
+#damon_bio img {
+	float: right;
+	}
+
+
+
+#footer {
+	clear: both;
+	width: 800px;
+	height: 80px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+#footer p {
+	margin: 0;
+	text-align: center;
+	line-height: normal;
+	font-size: x-small;
+}
+
+
+
+#home .content {
+	background: url(images/home_reflection.png) no-repeat;
+	}
+
+
+#about .content {
+	background: url(images/about_reflection.png) no-repeat;
+	}
